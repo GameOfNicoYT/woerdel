@@ -1,4 +1,4 @@
-if (navigator.userAgent.indexOf("iPhone") !== -1) {
+if (window.innerWidth <= 900 && window.innerHeight <= 700) {
     location.href("./error.html")
   }
 
