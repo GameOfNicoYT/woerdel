@@ -1,4 +1,4 @@
-if (window.innerWidth <= 900 && window.innerHeight <= 700) {
+if (document.getElementById("body").style.width <= 900 || document.getElementById("body").style.height <= 700) {
     location.href("./error.html")
   }
 
