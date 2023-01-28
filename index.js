@@ -1,7 +1,3 @@
-if (document.getElementById("body").style.width <= 900 || document.getElementById("body").style.height <= 700) {
-    location.href("./error.html")
-  }
-
 var correctLetters = []
 var correctWord = []
 var word;
