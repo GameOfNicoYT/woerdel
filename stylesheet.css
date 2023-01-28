@@ -100,8 +100,8 @@ body {
 
 .cell {
     background-color: silver;
-    width: 4.5rem;
-    height: 4.5rem;
+    width: 8vh;
+    height: 8vh;
     margin: auto;
     display: flex;
     justify-content: center;
