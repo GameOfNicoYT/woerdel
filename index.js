@@ -7405,6 +7405,15 @@ function resetCell() {
 }
 
 function gameEnd() {
+    keycheck = false
+
+    let button = document.getElementById("button")
+    let input = document.getElementById("word")
+    let solution = document.getElementById("solution")
+    input.style.display = "none"
+    button.outerHTML = '<button onclick="location.reload()" id="button">Erneut Spielen!</button>'
+
+    solution.innerHTML = "Das Wort war: " + Liste[number].toUpperCase();
 
 }
 
@@ -7471,7 +7480,7 @@ function checkWord() {
     } else {
         error()
     }
-    if (activeLine > 5) {
+    if (activeLine > 6) {
         gameEnd()
     }
 }
