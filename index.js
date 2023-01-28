@@ -1,3 +1,7 @@
+if (navigator.userAgent.indexOf("iPhone") !== -1) {
+    location.href("./error.html")
+  }
+
 var correctLetters = []
 var correctWord = []
 var word;
@@ -7417,7 +7421,7 @@ function win() {
         activeCell++
     }
     keycheck = false
-    
+
     let button = document.getElementById("button")
     let input = document.getElementById("word")
     input.style.display = "none"
