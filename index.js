@@ -7494,3 +7494,5 @@ window.addEventListener("keydown", (event) => {
     }
 
 });
+
+if(document.getElementById("body").getBoundingClientRect().width < 800) {location.href = "./error"}
